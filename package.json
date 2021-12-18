@@ -22,11 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "buildEverything": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "svgr": "svgr -d src/Icons/ assets/svg/",
-    "serve": "npm install && npm run build && yarn run start"
+    "build": "npm install && npm run buildEverything && yarn run start"
   },
   "eslintConfig": {
     "extends": [
